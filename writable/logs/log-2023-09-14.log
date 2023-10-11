@@ -1,0 +1,274 @@
+CRITICAL - 2023-09-14 05:39:37 --> Invalid file: pegawaian.php
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawaian.php')
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('pegawaian', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(26): view('pegawaian')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 05:40:36 --> Invalid file: pegawaian.php
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawaian.php')
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('pegawaian', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(31): view('pegawaian')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 05:51:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pegawaian\app\Views\pegawaian\pegawaian.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\pegawaian\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('pegawaian/pegaw...', Array, true)
+#4 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(31): view('pegawaian/pegaw...')
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#6 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-14 06:00:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pegawaian\app\Views\pegawaian\pegawaian.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\pegawaian\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('pegawaian/pegaw...', Array, true)
+#4 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(31): view('pegawaian/pegaw...')
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#6 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-14 06:05:03 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-09-14 06:05:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\pegawaian\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pegawaian\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pegawaian\app\Models\M_model.php(328): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(33): App\Models\M_model->joinOrderby('pengguna', 'user', 'pengguna.id_use...', 'tanggal_pegawai')
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-14 06:05:23 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 06:05:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(33): App\Models\M_model->joinOrderby('pengguna', 'user', 'pengguna.id_use...', 'tanggal_pegawai')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 06:05:39 --> Table 'pegawaian.pegawaian' doesn't exist
+CRITICAL - 2023-09-14 06:05:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(33): App\Models\M_model->joinOrderby('pegawaian', 'user', 'pegawaian.id_us...', 'tanggal_pegawai')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-14 06:26:13 --> Too few arguments to function App\Models\M_model::fusion(), 1 passed in C:\xampp\htdocs\pegawaian\app\Controllers\Home.php on line 219 and exactly 3 expected
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(219): App\Models\M_model->fusion('jabatan')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_jabatan()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 06:31:45 --> Unknown column 'total_siswa' in 'field list'
+CRITICAL - 2023-09-14 06:50:26 --> Too few arguments to function App\Controllers\Home::edit_jabatan(), 0 passed in C:\xampp\htdocs\pegawaian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_jabatan()
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-14 06:50:36 --> Too few arguments to function App\Controllers\Home::edit_jabatan(), 0 passed in C:\xampp\htdocs\pegawaian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_jabatan()
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-14 06:51:04 --> Too few arguments to function App\Controllers\Home::hapus_jabatan(), 0 passed in C:\xampp\htdocs\pegawaian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->hapus_jabatan()
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-14 07:06:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\pegawaian\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\pegawaian\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(211): CodeIgniter\Model->__call('getRow', Array)
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->jabatan()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 07:09:49 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\pegawaian\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\pegawaian\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(33): CodeIgniter\Model->__call('joinOrderby', Array)
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 07:18:17 --> Too few arguments to function App\Models\M_model::tampilPegawaian(), 5 passed in C:\xampp\htdocs\pegawaian\app\Controllers\Home.php on line 34 and exactly 6 expected
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(34): App\Models\M_model->tampilPegawaian('pegawai', 'jabatan', 'user', 'pegawai.id_jaba...', 'tanggal_pegawai')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 07:21:24 --> Unknown column 'user.id_user' in 'on clause'
+CRITICAL - 2023-09-14 07:21:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(53): App\Models\M_model->tampilPegawaian('pegawai', 'jabatan', 'user', 'pegawai.id_user...', 'pegawai.id_user...', 'tanggal_pegawai')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pegawaian()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-14 07:22:58 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\pegawaian\app\Models\M_model.php on line 44
+#0 C:\xampp\htdocs\pegawaian\app\Models\M_model.php(44): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'DESC')
+#1 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(52): App\Models\M_model->tampiltambahPegawaian('pegawai', 'jabatan', 'pegawai.id_user...', NULL, 'tanggal_pegawai')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pegawaian()
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-14 07:23:31 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\xampp\htdocs\pegawaian\app\Models\M_model.php on line 44
+#0 C:\xampp\htdocs\pegawaian\app\Models\M_model.php(44): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'DESC')
+#1 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(52): App\Models\M_model->tampiltambahPegawaian('pegawai', 'jabatan', 'pegawai.id_jaba...', NULL, 'tanggal_pegawai')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pegawaian()
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-14 07:23:52 --> Invalid file: add_users.php
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_users.php')
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('add_users', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(64): view('add_users')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pegawaian()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 07:30:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\pegawaian\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\pegawaian\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(92): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->aksi_tambah_pegawaian()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 07:33:00 --> Cannot redeclare App\Models\M_model::hapus()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-14 07:33:14 --> Cannot redeclare App\Models\M_model::simpan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-14 07:33:27 --> Cannot redeclare App\Models\M_model::getRow()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-14 07:33:38 --> Cannot redeclare App\Models\M_model::edit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-14 07:34:30 --> Unknown column 'id_jabatan_pegawai' in 'field list'
+ERROR - 2023-09-14 07:34:47 --> Unknown column 'id_jabatan_pegawai' in 'field list'
+ERROR - 2023-09-14 07:54:24 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 07:54:24 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(124): App\Models\M_model->ultraRows('pengguna', 'jabatan', 'user', 'pegawai.id_jaba...', 'pegawai.id_user...', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('1')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 07:55:41 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 07:55:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(124): App\Models\M_model->ultraRows('pengguna', 'jabatan', 'user', 'pegawai.id_jaba...', 'pegawai.id_user...', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('1')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 07:55:41 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 07:55:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(124): App\Models\M_model->ultraRows('pengguna', 'jabatan', 'user', 'pegawai.id_jaba...', 'pegawai.id_user...', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('1')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 07:55:41 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 07:55:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(124): App\Models\M_model->ultraRows('pengguna', 'jabatan', 'user', 'pegawai.id_jaba...', 'pegawai.id_user...', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->edit_pegawaian('1')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 08:01:46 --> Table 'pegawaian.pengguna' doesn't exist
+CRITICAL - 2023-09-14 08:36:47 --> Cannot redeclare App\Controllers\Home::jabatan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-14 08:51:00 --> Column 'maker_absen' cannot be null
+CRITICAL - 2023-09-14 09:29:29 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\pegawaian\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_abs...')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_abs...')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-14 09:29:37 --> Cannot use try without catch or finally
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-14 09:29:43 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\pegawaian\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_abs...')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_abs...')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-14 09:35:02 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('absensi/absensi', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(358): view('absensi/absensi')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->absensi_pegawai()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-14 09:35:21 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('absensi/absensi', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(358): view('absensi/absensi')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->absensi_pegawai()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,127 @@
+ERROR - 2023-09-15 04:42:43 --> Unknown column 'nama_pegawai' in 'where clause'
+CRITICAL - 2023-09-15 04:42:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(558): App\Models\M_model->absen_nama('absensi', 'user', 'absensi.maker_a...', 'tanggal_absen', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->absensi_pegawai()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 05:05:44 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->aksi_ganti_profile()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 05:06:24 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->aksi_ganti_profile()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 05:20:47 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('absensi/absensi', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(569): view('absensi/absensi')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->absensi_pegawai()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-15 05:23:57 --> Cannot redeclare App\Controllers\Home::jabatan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-15 05:23:57 --> Cannot redeclare App\Controllers\Home::jabatan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-15 05:38:49 --> Unknown column 'tanggal_absen' in 'order clause'
+CRITICAL - 2023-09-15 05:38:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(711): App\Models\M_model->tampilAbsen('agenda', 'user', 'agenda.maker_ag...', 'tanggal_absen')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_agenda()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-15 05:38:54 --> Unknown column 'tanggal_absen' in 'order clause'
+CRITICAL - 2023-09-15 05:38:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(711): App\Models\M_model->tampilAbsen('agenda', 'user', 'agenda.maker_ag...', 'tanggal_absen')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_agenda()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-15 05:38:56 --> Unknown column 'tanggal_absen' in 'order clause'
+CRITICAL - 2023-09-15 05:38:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(711): App\Models\M_model->tampilAbsen('agenda', 'user', 'agenda.maker_ag...', 'tanggal_absen')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->tambah_agenda()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 05:44:36 --> syntax error, unexpected '$where2' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\pegawaian\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/agenda')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/agenda')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 06:45:02 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Le4D6snAAAAAHD3_8OPnw4teaKXWZdefSyXn4H3&amp;response=03AFcWeA6cXkr4JGS2yA_NCA91WFaFh5VQC_T7LURdlG385P8WuvQtLb_iv9V8taQlqEXzq5dEiFiba9Xm2Ny6BabhhFY-3PwNF6USntR1vQuV21BrSl_TKMIOe01gpD7-LD3kv9rzj2Pagv702VK4TO2kOd0FxWIPryQxWJn5hyF1Fn0BYDeBf1FXf0lRS8I_0bKoL3ubnpWsKfRn0ti8acQm73raTYNnPqBO_h9F_4ekmMXybzWoeiNpc7wXBkaEGE2lfK5wi0C6A08pr5Mp8hPl6cVgx7fn5YsrlL2aXkzbfwOX61zcUuQkQGDn9w-Dgg0MK-aI8Qge-qZPsqzQmD5-jFQjjJ3aecVXR9215prPaxftwUC5jeFjC4m-faFa_3bMozKSrrX_h3qGmOZzQ5R7G0CEAEiQ-t5GViO6DGoXGMlCz8ndlgUiyo6mRX9N_CA_nNXZCo318dgFFRjS2WtL-OzKfmFOv8qD2Ux83dcG1Ba7X-aBZOAAw362VOMHhStfrVuLhil0TJFGqwquOqr5gxEkha_41BHSLYUjggM71wDbntYMq89zPrfl2L-TScshezk3IUJn4DvHZIC3-IstzBsV77dgHMsEMYNQkqQrJBgxf6BF6cSbc9EMWS5DWYgzUsQs-mG3xCM-qi6otqU-tQSZErrIrQImAjDz4Ai1l27b2FeNt6-5NvVQmZ2BdLpJVm3KVcddBN3iLXWwKhE5JpsCAdWs4r0zR-qVwlDkvdbQlvvT3bD6CtBuQYauXl5je75kTL1N_baJko39D5Wz3zKwicaBZxerRGQSGFzXDMu7uCPqICFyfH9GcMF1JiqfqIVI9MHW6uEd-qkr6tXLWfDHOB7i7cjwWSltsjxcBp8lBbWc81M02mlIYMdI1d-mB-3LhlAUKWpyaO7FtiiazqZolQsfKg29k2eJ0njBIgi1Whw8vrQ6E9LJAzVqn7lEdvecOlJAQXoVRKZisA9-SIRL8LVJ4mpHwhQA-Dj-dyopptyD50QuEo96vh8kw5XMie4EaS0u1GX8upB28tqTo2MIKn3s3L1FLQEbdIdJtiJY8vT7JFlwkaQZ9UMUhT-n6yCQO2C6Gb23dzPuAwD4Ee9VSL88PkJKE09tV_ZBZ1EEotcu7UsdzMlKKUq-hEBZUGSxBGh8CHg3ueeNh4V5Eu-N4HE70uWyTv-39e5YeTfDrSL9wvxFoN6JKIPz_yz8I02DGVLlXgGcliGJPG1BxnwbUfjXFo82_Jpi2FVtWGqaOFpYRshlCSVnr2UlO8-lZjOKzzYP1sQj5kRp4kYRyVevmd3raGKJUVSS04soBVzfg_n7Up9QFhI8wQMoYsZ81XGp4Kqmq1Iz016Qk1eoK_EuBiVnkc_7ijc7n9JHk471f7BtkO5qL8KrXDpk5m3LGunBtFdJ2-HhjW4mUXjD0wXhd6cfWND78yEFv2e2QaU2SDS4ETXq-NmPXW12uybcMqGbvAEeL5LBZUXcG19x-u3EMkzGx6TeOr0a9Koyrpvv5J_TkpdG1HvoNfmdZ380R43VcJMuLqA17dp2Rl3KlmxvyqWaWg): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(34): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-15 07:19:36 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\xampp\htdocs\pegawaian\app\Controllers\Home.php on line 970 and exactly 3 expected
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(970): App\Models\M_model->edit('gaji', Array)
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->penerimaan_gaji('3')
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 07:28:47 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pegawaian\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pegawaian\system\Common.php(1089): CodeIgniter\View\View->render('pengajian/gaji', Array, true)
+#2 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(859): view('pengajian/gaji')
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->pengajian_pegawai()
+#4 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-15 08:06:16 --> Table 'pegawaian.siswa' doesn't exist
+CRITICAL - 2023-09-15 08:06:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(1048): App\Models\M_model->filter_invoice('absensi', '', '')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->cari_absensi()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-15 08:29:50 --> Cannot redeclare App\Controllers\Home::absensi_pegawai_laporan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-15 08:35:24 --> Cannot redeclare App\Controllers\Home::agenda_laporan()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-15 08:41:58 --> Unknown column 'gaji.tanggal_agenda' in 'where clause'
+CRITICAL - 2023-09-15 08:41:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pegawaian\app\Controllers\Home.php(1250): App\Models\M_model->filter_agenda('gaji', '2023-09-15', '2023-09-15')
+#1 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(832): App\Controllers\Home->cari_pengajian()
+#2 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pegawaian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pegawaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pegawaian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
